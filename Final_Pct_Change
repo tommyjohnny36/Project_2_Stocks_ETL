@@ -1,0 +1,30 @@
+create table stocks_rename(
+	year_month varchar(7), 
+	tsla_open_pct_chg float,
+	tsla_high_pct_chg float,
+	tsla_low_pct_chg float,
+	tsla_close_pct_chg float,
+	tsla_vol_pct_chg float,
+	appl_open_pct_chg float,
+	appl_high_pct_chg float,
+	appl_low_pct_chg float,
+	appl_close_pct_chg float,
+	appl_vol_pct_chg float,
+	"MSFT_open_pct_chg" float,
+	"MSFT_high_pct_chg" float,
+	"MSFT_low_pct_chg" float,
+	"MSFT_close_pct_chg" float,
+	"MSFT_vol_pct_chg" float,
+	"FB_open_pct_chg" float,
+	"FB_high_pct_chg" float,
+	"FB_low_pct_chg" float,
+	"FB_close_pct_chg" float,
+	"FB_vol_pct_chg" float,
+	"GOOG_open_pct_chg" float,
+	"GOOG_high_pct_chg" float,
+	"GOOG_low_pct_chg" float,
+	"GOOG_close_pct_chg" float,
+	"GOOG_vol_pct_chg" float
+	);
+	
+	select * from stocks_rename;

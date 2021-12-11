@@ -1,0 +1,12 @@
+create table stocks(
+	date_ DATE, 
+	open_val float,
+	High_val float,
+	Low_val float,
+	close_val float,
+	Volume int,
+	Ticker varchar(5),
+	Year_Month varchar(7)
+	);
+select * from stocks;
+	
